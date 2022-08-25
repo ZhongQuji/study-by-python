@@ -1,0 +1,8 @@
+digraph "classes_Pyreverse" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{AIPlayer|play_data : list\l|ai_gesture()\l}", shape="record"];
+"1" [label="{Game|\l|game_judge()\lgame_start()\l}", shape="record"];
+"2" [label="{Player|dict : dict\l|gesture()\l}", shape="record"];
+"0" -> "2" [arrowhead="empty", arrowtail="none"];
+}
